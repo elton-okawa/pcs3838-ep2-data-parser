@@ -4,7 +4,7 @@ python <datasetFileName> <configFileName> <shouldReturnIntervalOutput>
 ```
 
 # Config file format
-The config file must be declared in the same order of dataset columns
+:warning: The config file content must be declared in the same order of dataset columns
 ```
 <name>, <tag>, <intervalSize>
 <name>, <tag>, <intervalSize>
