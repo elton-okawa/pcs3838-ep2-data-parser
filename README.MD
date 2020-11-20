@@ -1,6 +1,6 @@
 # Usage
 ```
-python <datasetFileName> <configFileName> <shouldReturnIntervalOutput>
+python main.py <datasetFileName> <configFileName> <shouldReturnIntervalOutput>
 ```
 
 # Config file format
