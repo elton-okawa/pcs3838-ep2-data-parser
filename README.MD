@@ -1,9 +1,9 @@
-#Usage
+# Usage
 ```
 python <datasetFileName> <configFileName> <shouldReturnIntervalOutput>
 ```
 
-#Config file format
+# Config file format
 The config file must be declared in the same order of dataset columns
 ```
 <name>, <tag>, <intervalSize>
@@ -14,7 +14,7 @@ Recency (months), Recency, 1
 Frequency (times), Frequency, 5
 ```
 
-#Output format
+# Output format
 If "shouldReturnIntervalOutput" argument is true:
 ```
 <tag>_<inclusiveStartInterval>-<exclusiveEndInterval>, ...
