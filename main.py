@@ -10,7 +10,10 @@ def main():
 
     datasetFileName = sys.argv[1]
     configFileName = sys.argv[2]
-    shouldReturnIntervalOutput = bool(sys.argv[3])
+    if sys.argv[3].lower() == 'false':
+        shouldReturnIntervalOutput = False
+    else:
+        shouldReturnIntervalOutput = True
 
     config = configParser.parseConfig(configFileName)
     printUtil.printObjectList(config, "Using config:")

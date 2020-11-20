@@ -1,6 +1,9 @@
 # Usage
 ```
 python main.py <datasetFileName> <configFileName> <shouldReturnIntervalOutput>
+
+Example:
+python main.py transfusion.data paramConfig.txt false
 ```
 
 # Config file format
