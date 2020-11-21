@@ -3,14 +3,12 @@ def parseData(dataFileName, configList, shouldReturnIntervalOutput):
     data = []
 
     header = file.readline()
-    next(file)
     for line in file:
-
         row = []
         parameters = line.split(",")
 
         if len(parameters) != len(configList):
-            raise AttributeError("Number of config defined intervals is less than dataset's number of columns")
+            raise AttributeError("Number of config defined intervals is different than dataset's number of columns")
 
         for i in range(len(parameters)):
             param = int(parameters[i])
