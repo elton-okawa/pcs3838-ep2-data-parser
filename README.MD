@@ -1,9 +1,9 @@
 # Usage
 ```
-python main.py <datasetFileName> <configFileName> <shouldReturnIntervalOutput>
+python main.py <datasetFileName> <configFileName> <configVersion> <shouldReturnIntervalOutput>
 
 Example:
-python main.py transfusion.data paramConfig.txt false
+python main.py transfusion.data paramConfig 1 false
 ```
 
 # Config file format
